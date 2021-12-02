@@ -119,7 +119,24 @@ p.lista{
 }
 a:active, a:link, a:visited{
     text-decoration: none;
+    color:skyblue;
 }
+td{
+    padding:4px;
+    vertical-align: center;
+    text-align: center;
+    border: 1px solid black;
+}
+td.placar{
+    font-size: 3em;
+}
+/*##################### FIM ################*/
+
+/*################# GRÁFICO #################*/
+img.loguinho{
+    max-width: 60px;
+}
+
 /*##################### FIM ################*/
 
 /*############# BARRA LATERAL ###############*/
