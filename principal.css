@@ -3,7 +3,7 @@ body{
     margin:auto;
     font-family: 'Nunito', sans-serif;
     /*background-color: #6495ed;*/
-    background-color: #00b599ff;
+    background-color: rgb(0, 73, 62);
     color:#ffffffff;
     height: 100%;
 }
@@ -12,19 +12,24 @@ b{
 }
 /*############## DIVs DA PÁGINA #############*/
 div#cabecalho{
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, #0003a5ff 35%, #00b599ff 100%);
+    background: rgb(0, 73, 62);
 }
 div#conteudo{
     margin:auto;
-    background-color:#00b599ff;
+    background-color:#00b59900;
     display: flex;
     break-inside: always;
 }
 div#rodape{
-    background: linear-gradient(180deg, #00b599ff 0%, #0003a5ff 35%, #00b599ff 100%);
-    background-color: #ff5700ff;
+    background: rgb(0, 73, 62);
+    background-color: rgba(2,0,36,1);/*#ff5700ff*/
     color:#ffffffff;
     min-height: 400px;
+}
+div.modalidade{
+    font-size: 36pt;
+    text-align:center;
+    background-color: rgba(2,0,36,1);
 }
 /*##################### FIM ################*/
 
@@ -68,13 +73,13 @@ ul.menu li{
     display:inline-block;
     padding:10px 10px;
     border-radius:7px;
-    background-color:#ff5700ff;
+    background-color:#ac883aff;
     color:#e6e6e8;
     box-shadow: 2px -2px #000;
 }
 #menu li:hover{
-    color:yellow;
-    background-color: #0003a5ff;
+    color:rgba(2,0,36,1);
+    background-color: #cca81aff;
     box-shadow: 2px -2px #0008;
     transition: 1s;
 }
