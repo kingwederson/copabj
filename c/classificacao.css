@@ -1,0 +1,36 @@
+td,th{
+    background-color: rgb(177, 177, 177);
+    color:black;
+    max-height: 27px;
+}
+table.ordem td,table.ordem th{
+    border:1px solid #000;
+    border-radius: 5px;
+    min-width: 26px;
+    min-height: 26px;
+    text-align: center;
+}
+table.ordem{
+    counter-reset: posicao;
+}
+table.ordem .indice::before {
+    counter-increment: posicao;              /* Incrementa a seção do contador*/
+    content:counter(posicao); /* Mostra o contador */
+    font-weight: bold;
+}
+td.marca{
+    display:inline-block;
+    display:grid;
+}
+div.marca{
+    margin:0px;
+    padding:0px;
+    max-width: 26px;
+    min-height:5px;
+    float:top;
+}
+img.q{
+    max-height: 20px;
+    position: relative;
+    left:0px;
+}

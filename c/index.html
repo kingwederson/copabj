@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="mini.svg">
+    <title>Tesla Soccer Cup</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../principal.css">
+    <link rel="stylesheet" href="classificacao.css">
+    <script src="http://fut.wederson.net.br/cabecalho.js"></script>
+    <script src="../rodape.js"></script>
+    <script src="../lateral.js"></script>
+</head>
+<body onload="cabi(), rodapi(), laterali()">
+    <div class="reset" id="cabecalho">Não carregou :(</div>
+    <div class="main" id="conteudo">
+        <nav id="conteudoinfo">
+            <h1>Classificação</h1>
+            <h3>Liga A</h3>
+            <table class="ordem">
+                <thead>
+                    <tr>
+                        <th colspan="2">#</th>
+                        <th>Equipe</th>
+                        <th>P</th>
+                        <th>gs</th>
+                        <th>gp</th>
+                        <th>gc</th>
+                        <th>V</th>
+                        <th>E</th>
+                        <th>D</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/trofeu_ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/supercopa.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/supercopa.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/supercopa.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/supercopa.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaA.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/rebaixamento.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/rebaixamento.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/rebaixamento.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Liga B</h3>
+            <table class="ordem">
+                <thead>
+                    <tr>
+                        <th colspan="2">#</th>
+                        <th>Equipe</th>
+                        <th>P</th>
+                        <th>gs</th>
+                        <th>gp</th>
+                        <th>gc</th>
+                        <th>V</th>
+                        <th>E</th>
+                        <th>D</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/promocao.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/promocao.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/promocao.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                    <tr class="calculavel">
+                        <th class="indice"></th>
+                        <td class="quali">
+                            <img class="q" src="../img/ligaB.svg">
+                        </td>
+                        <td class="nome"></td>
+                        <td class="pontos"></td>
+                        <td class="gols"></td>
+                        <td class="golp"></td>
+                        <td class="golc"></td>
+                        <td class="vitorias"></td>
+                        <td class="empates"></td>
+                        <td class="derrotas"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </nav>
+        <div id="secundaria">
+            <!--aqui ficam a nav#ligacoes-->
+        </div>
+    </div>
+    <div class="reset" id="rodape">Não carregou :(</div>
+</body>
+</html>
