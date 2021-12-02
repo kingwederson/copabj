@@ -3,7 +3,7 @@ function cabi(){
     var cabecalho = window.document.getElementById('cabecalho')
     var htmlcab = `
     <nav class="main" id="cabecalhoinfo">
-        <a href="http://fut.wederson.net.br/">
+        <a href="http://copabj.wederson.net.br/">
             <img src="../img/copabj4.png" class="logo">
             <nav class="titulo"><span id="hie1"></span><br><span id="hie2"></span></nav>
         </a>
