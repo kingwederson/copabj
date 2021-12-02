@@ -9,8 +9,8 @@ function cabi(){
         </a>
         <nav id="menu">
         <ul class="menu">
-            <a href="http://copabj.wederson.net.br/ft/"><li>Futebol<br>Feminino</li></a>
-            <a href="http://copabj.wederson.net.br/ft/"><li>Futebol<br>Masculino</li></a>
+            <a href="http://copabj.wederson.net.br/ftf/"><li>Futebol<br>Feminino</li></a>
+            <a href="http://copabj.wederson.net.br/ftm/"><li>Futebol<br>Masculino</li></a>
             <a href="http://copabj.wederson.net.br/fsf/"><li>Futsal<br>Feminino</li></a>
             <a href="http://copabj.wederson.net.br/fsm/"><li>Futsal<br>Masculino</li></a>
             <a href="http://copabj.wederson.net.br/fv/"><li>Futevôlei</li></a>
