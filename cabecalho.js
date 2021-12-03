@@ -9,15 +9,14 @@ function cabi(){
         </a>
         <nav id="menu">
             <ul class="menu">
-                <a href="http://copabj.wederson.net.br/ftf/"><li>Futebol<br>Feminino</li></a>
-                <a href="http://copabj.wederson.net.br/ftm/"><li>Futebol<br>Masculino</li></a>
-                <a href="http://copabj.wederson.net.br/fsf/"><li>Futsal<br>Feminino</li></a>
-                <a href="http://copabj.wederson.net.br/fsm/"><li>Futsal<br>Masculino</li></a>
-                <a href="http://copabj.wederson.net.br/fv/"><li>Futevôlei</li></a>
-                <a href="http://copabj.wederson.net.br/ma/"><li>Malha</li></a>
-                <a href="http://copabj.wederson.net.br/vl/"><li>Voleibol</li></a>
-                <a href="http://copabj.wederson.net.br/vp/"><li>Vôlei de Praia</li></a>
-                <a href="http://copabj.wederson.net.br/xz/"><li>Xadrez</li></a>
+                <a href="http://copabj.wederson.net.br/futebol/"><li>Futebol<br>&nbsp;</li></a>
+                <a href="http://copabj.wederson.net.br/futsalf/"><li>Futsal<br>Feminino</li></a>
+                <a href="http://copabj.wederson.net.br/futsalm/"><li>Futsal<br>Masculino</li></a>
+                <a href="http://copabj.wederson.net.br/futevolei/"><li>Futevôlei<br>&nbsp;</li></a>
+                <a href="http://copabj.wederson.net.br/malha/"><li>Malha<br>&nbsp;</li></a>
+                <a href="http://copabj.wederson.net.br/voleif/"><li>Vôlei de Praia<br>Feminino</li></a>
+                <a href="http://copabj.wederson.net.br/voleim/"><li>Vôlei de Praia<br>Masculino</li></a>
+                <a href="http://copabj.wederson.net.br/xadrez/"><li>Xadrez<br>&nbsp;</li></a>
             </ul>
         </nav>
     </nav>
