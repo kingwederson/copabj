@@ -121,7 +121,7 @@ a:active, a:link, a:visited{
     text-decoration: none;
     color:skyblue;
 }
-td{
+td,th{
     padding:4px;
     vertical-align: center;
     text-align: center;
