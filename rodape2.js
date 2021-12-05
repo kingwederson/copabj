@@ -4,8 +4,8 @@ function rodapi(){
     <nav class="main" id="rodapeinfo">
         <h1>Realização</h1>
         <img src="../img/pm.png" class="logo"><img src="../img/seltur.png" class="logo">
-        <p class="lista"><b>Disclamer</b>: Este site é apenas um modelo para competições esportivas.</p>
-        <p class="lista">Se você ficou interessado entre em contato através de contato@wederson.net.br, ou prontamente pelo número +55 32 999-185-541.</p>
+        <p class="lista">Competição oficial promovida pela Secretaria Municipal de Esporte, Lazer e Turismo da Prefeitura Municipal de Bom Jardim de Minas.</p>
+        <p class="lista">Site produzido por Wederson Geovane de Paula (wederson.g.depual@gmail.com/contato@wederson.net.br/+55 32 999-185-541).</p>
     </nav>
     `;
    rodape.innerHTML = htmlrodape
