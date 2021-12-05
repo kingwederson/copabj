@@ -121,11 +121,16 @@ a:active, a:link, a:visited{
     text-decoration: none;
     color:skyblue;
 }
+table{
+    margin: auto;
+}
 td,th{
+    margin:0px;
     padding:4px;
     vertical-align: center;
     text-align: center;
-    border: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 td.placar{
     font-size: 3em;
